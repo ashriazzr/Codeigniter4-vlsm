@@ -1,0 +1,30 @@
+CRITICAL - 2024-06-13 12:00:14 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: POST, Route: inputNetworks]
+in APPPATH\Views\input_networks.php on line 24.
+ 1 APPPATH\Views\input_networks.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'D:\\XAMPP\\htdocs\\Codeigniter4-vlsm\\app\\Views\\input_networks.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\XAMPP\\htdocs\\Codeigniter4-vlsm\\app\\Views\\input_networks.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('input_networks', [], true)
+ 5 APPPATH\Controllers\IpCalculator.php(23): view('input_networks', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IpCalculator->inputNetworks()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpCalculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\XAMPP\\htdocs\\Codeigniter4-vlsm\\public\\index.php')
+CRITICAL - 2024-06-13 12:01:59 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: POST, Route: inputNetworks]
+in APPPATH\Views\input_networks.php on line 24.
+ 1 APPPATH\Views\input_networks.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'D:\\XAMPP\\htdocs\\Codeigniter4-vlsm\\app\\Views\\input_networks.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\XAMPP\\htdocs\\Codeigniter4-vlsm\\app\\Views\\input_networks.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('input_networks', [], true)
+ 5 APPPATH\Controllers\IpCalculator.php(23): view('input_networks', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IpCalculator->inputNetworks()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpCalculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\XAMPP\\htdocs\\Codeigniter4-vlsm\\public\\index.php')

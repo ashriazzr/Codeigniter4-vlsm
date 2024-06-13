@@ -1,0 +1,5 @@
+- buat hitung ip dengan metode vlsm
+
+Add :
+- Pada hasil akhir kasih tabel baru yang menunjukan nama network.
+- ada peringatan yang  menyarankan menggunakan ip kelas berapa yang lebih efisien untuk digunakan, setelah memasukan jumlah network yang diinginkan.
